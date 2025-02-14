@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="favicon.jpg">
+    <title>My Personal Blog</title>
+
+
+    <style>
+        #video {
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: 250px;
+        }
+        #photo{
+            display: block;
+            margin: 0 auto;
+            width: 400px;
+            height: 250px;
+        }
+    </style>
+  
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to My Personal Blog!</h1>
+        <p>Sharing my thoughts , passion , and expression with the world.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+     <nav>
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About Me">About Me</a></li>
+            <li><a href="Blog Posts">Blog Posts</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </ul>
+     </nav>
+
+     <!-- Blog Post Session -->
+      <section>
+       <article>
+        <h2>My Favourite Hobby: Over-Thinking</h2>
+        <p><strong>SUMMARY: </strong>Overthinking refers to the act of dwelling excessively on thoughts, often leading to anxiety, confusion, or indecision. It involves analyzing situations or problems in great detail, often to the point where it becomes unproductive and stressful.</p>
+        <br>
+        <p><strong>MANAGE: </strong>
+            <ul>
+                <li><strong>Physical movement:</strong> Walking can help release tension and reduce stress, allowing your mind to relax.
+                </li>
+                <br>
+                <li><strong>Change of environment:</strong>A new setting, especially outdoors, can help break the cycle of rumination and give you a fresh perspective.</li>
+                <br>
+                <li><strong>Mindfulness:</strong> Walking lets you focus on the present moment—your surroundings, the rhythm of your steps—helping to redirect your thoughts.</li>
+                <br>
+                <li><strong>Endorphins:</strong>Physical activity triggers the release of endorphins, which are natural mood boosters, reducing anxiety and improving overall well-being.</li>
+            </ul>
+        </p>
+        <img id="photo" height="200" width="300" src="https://images.unsplash.com/photo-1477332552946-cfb384aeaf1c?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="image">
+        <br> <br>
+        <iframe id="video" height="250" width="400" src="videoplayback.mp4" allow="accelerometer; autoplay allowfullscreen; picture-in-picture" allowfullscreen></iframe>
+       </article>
+
+      </section>
+
+      <!-- About Me Section -->
+       <section>
+        <h2>About Me</h2>
+        <p>Hi, I'm Paras Kalura. I tend to overthink a lot, but I've found that going for a walk in nature helps me clear my mind and regain focus. When I need a change of pace, I hit the gym to stay active and recharge. I'm passionate about learning, particularly when it comes to backend and frontend development. This year, I'm determined to land a job in tech, and I'm committed to expanding my skills and knowledge to make that happen!</p>
+       </section>
+
+       <!-- Contact Details -->
+        <section>
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me via email or through my social media links!</p>
+            <ul>
+                <li><a href="mailto:officialkalura@gmail.com" target="_blank">Email</a></li>
+                <li><a href="https://www.linkedin.com/in/paras-kalura-084797239/" target="_blank">LinkDin</a></li>
+                <li><a href="https://github.com/PARAS-KALURA" target="_blank">GitHub</a></li>
+            </ul>
+         <h2>Contact Form</h2>
+         <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Submit">
+         </form>
+         </section>
+
+         <!-- Footer -->
+          <footer>
+            <p>&copy; 2025 My Personal Blog. All rights reserved.</p>
+          </footer>
+</body>
+</html>
